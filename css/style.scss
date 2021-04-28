@@ -31,6 +31,9 @@
                         color: black;
                     }
                     border-style: solid;
+                    &:hover{
+                        background-color: #00FA9A;
+                    }
                     h2{
                         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                         font-weight: 500;
@@ -46,6 +49,7 @@
                 margin-top: 15vh;
                 h1{
                     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    text-decoration: underline;
                 }
                 #slide{
                     width: 30%;
@@ -58,7 +62,7 @@
                         right: auto;
                         left: auto;
                     }
-                    h1{
+                    h2{
                         height: 100%;
                         font-size: 5vw;
                         color: white;

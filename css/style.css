@@ -53,6 +53,10 @@
   border-style: solid;
 }
 
+* body header nav a:hover {
+  background-color: #00FA9A;
+}
+
 * body header nav a h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
@@ -74,6 +78,7 @@
 
 * body main #content h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
 
 * body main #content #slide {
@@ -98,7 +103,7 @@
   margin-left: auto;
 }
 
-* body main #content #slide h1 {
+* body main #content #slide h2 {
   height: 100%;
   font-size: 5vw;
   color: white;
@@ -107,7 +112,7 @@
   font-family: fantasy;
 }
 
-* body main #content #slide h1:hover {
+* body main #content #slide h2:hover {
   cursor: pointer;
 }
 
