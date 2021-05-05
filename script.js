@@ -1,4 +1,4 @@
-var jcontent = JSON.parse((JSON.stringify({
+var charizard = JSON.parse(`{
     "abilities": [
       {
         "name": "blaze"
@@ -72,7 +72,10 @@ var jcontent = JSON.parse((JSON.stringify({
       }
     ],
     "weight": 905
-)})
+  }`);
+
+
+
 
   var output = document.getElementById('output');
-  output.innerHTML = jcontent.abilities  +   jcontent.base_experience;
+  output.innerHTML = charizard['abilities']  +   charizard['base_experience'];
